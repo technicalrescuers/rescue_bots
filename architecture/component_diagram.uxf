@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>50</x>
+      <y>70</y>
+      <w>140</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>symbol=component
+Searching 
+Module</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>210</x>
+      <y>70</y>
+      <w>140</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>symbol=component
+Rescueing 
+Module</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>100</x>
+      <y>170</y>
+      <w>200</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>symbol=component
+Centralized 
+Control 
+Module</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>140</x>
+      <y>120</y>
+      <w>30</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>lt=[^]-[v]</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;50.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>240</x>
+      <y>120</y>
+      <w>30</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>lt=[^]-[v]</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;50.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>30</x>
+      <y>30</y>
+      <w>340</w>
+      <h>240</h>
+    </coordinates>
+    <panel_attributes>symbol=component
+RescueBot</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
