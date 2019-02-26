@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLDeployment</id>
+    <coordinates>
+      <x>40</x>
+      <y>30</y>
+      <w>260</w>
+      <h>170</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;device&gt;&gt;
+*Linux Server*</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLDeployment</id>
+    <coordinates>
+      <x>330</x>
+      <y>30</y>
+      <w>260</w>
+      <h>170</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;device&gt;&gt;
+*Linux Server*</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLDeployment</id>
+    <coordinates>
+      <x>80</x>
+      <y>240</y>
+      <w>470</w>
+      <h>210</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;device&gt;&gt;
+*Linux Server*</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>150</x>
+      <y>170</y>
+      <w>90</w>
+      <h>150</h>
+    </coordinates>
+    <panel_attributes>lt=-
+&lt;&lt;protocol&gt;&gt;
+HTTP</panel_attributes>
+    <additional_attributes>10.0;130.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>320</x>
+      <y>170</y>
+      <w>150</w>
+      <h>170</h>
+    </coordinates>
+    <panel_attributes>lt=-
+&lt;&lt;protocol&gt;&gt;
+HTTP</panel_attributes>
+    <additional_attributes>10.0;140.0;130.0;140.0;130.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLDeployment</id>
+    <coordinates>
+      <x>100</x>
+      <y>300</y>
+      <w>230</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;virtual machine&gt;&gt;
+*JVM*</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>110</x>
+      <y>350</y>
+      <w>200</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>symbol=artifact
+&lt;&lt;artifact&gt;&gt;
+CentralizedControlModule.jar</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>60</x>
+      <y>130</y>
+      <w>200</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>symbol=artifact
+&lt;&lt;artifact&gt;&gt;
+SearchingModule.jar</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>350</x>
+      <y>130</y>
+      <w>200</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>symbol=artifact
+&lt;&lt;artifact&gt;&gt;
+RescuingModule.jar</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLDeployment</id>
+    <coordinates>
+      <x>90</x>
+      <y>480</y>
+      <w>230</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;device&gt;&gt;
+*Desktop/Mobile*</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>100</x>
+      <y>530</y>
+      <w>200</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>symbol=artifact
+&lt;&lt;artifact&gt;&gt;
+UI app</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>200</x>
+      <y>400</y>
+      <w>90</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>lt=-
+&lt;&lt;protocol&gt;&gt;
+HTTP</panel_attributes>
+    <additional_attributes>10.0;80.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLDeployment</id>
+    <coordinates>
+      <x>410</x>
+      <y>330</y>
+      <w>110</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;datastore&gt;&gt;
+*Database*</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>320</x>
+      <y>340</y>
+      <w>110</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=-
+&lt;&lt;protocol&gt;&gt;
+connection</panel_attributes>
+    <additional_attributes>90.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLDeployment</id>
+    <coordinates>
+      <x>50</x>
+      <y>80</y>
+      <w>230</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;virtual machine&gt;&gt;
+*JVM*</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLDeployment</id>
+    <coordinates>
+      <x>340</x>
+      <y>80</y>
+      <w>230</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;virtual machine&gt;&gt;
+*JVM*</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
