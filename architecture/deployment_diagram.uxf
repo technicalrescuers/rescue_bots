@@ -4,8 +4,8 @@
   <element>
     <id>UMLDeployment</id>
     <coordinates>
-      <x>40</x>
-      <y>30</y>
+      <x>670</x>
+      <y>40</y>
       <w>260</w>
       <h>170</h>
     </coordinates>
@@ -16,8 +16,8 @@
   <element>
     <id>UMLDeployment</id>
     <coordinates>
-      <x>330</x>
-      <y>30</y>
+      <x>960</x>
+      <y>40</y>
       <w>260</w>
       <h>170</h>
     </coordinates>
@@ -28,8 +28,8 @@
   <element>
     <id>UMLDeployment</id>
     <coordinates>
-      <x>80</x>
-      <y>240</y>
+      <x>710</x>
+      <y>250</y>
       <w>470</w>
       <h>210</h>
     </coordinates>
@@ -40,8 +40,8 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>150</x>
-      <y>170</y>
+      <x>780</x>
+      <y>180</y>
       <w>90</w>
       <h>150</h>
     </coordinates>
@@ -53,8 +53,8 @@ HTTP</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>320</x>
-      <y>170</y>
+      <x>950</x>
+      <y>180</y>
       <w>150</w>
       <h>170</h>
     </coordinates>
@@ -66,8 +66,8 @@ HTTP</panel_attributes>
   <element>
     <id>UMLDeployment</id>
     <coordinates>
-      <x>100</x>
-      <y>300</y>
+      <x>730</x>
+      <y>310</y>
       <w>230</w>
       <h>110</h>
     </coordinates>
@@ -78,8 +78,8 @@ HTTP</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>110</x>
-      <y>350</y>
+      <x>740</x>
+      <y>360</y>
       <w>200</w>
       <h>50</h>
     </coordinates>
@@ -91,8 +91,8 @@ CentralizedControlModule.jar</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>60</x>
-      <y>130</y>
+      <x>690</x>
+      <y>140</y>
       <w>200</w>
       <h>50</h>
     </coordinates>
@@ -104,8 +104,8 @@ SearchingModule.jar</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>350</x>
-      <y>130</y>
+      <x>980</x>
+      <y>140</y>
       <w>200</w>
       <h>50</h>
     </coordinates>
@@ -115,35 +115,10 @@ RescuingModule.jar</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
-    <id>UMLDeployment</id>
-    <coordinates>
-      <x>90</x>
-      <y>480</y>
-      <w>230</w>
-      <h>110</h>
-    </coordinates>
-    <panel_attributes>&lt;&lt;device&gt;&gt;
-*Desktop/Mobile*</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLGeneric</id>
-    <coordinates>
-      <x>100</x>
-      <y>530</y>
-      <w>200</w>
-      <h>50</h>
-    </coordinates>
-    <panel_attributes>symbol=artifact
-&lt;&lt;artifact&gt;&gt;
-UI app</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
     <id>Relation</id>
     <coordinates>
-      <x>200</x>
-      <y>400</y>
+      <x>830</x>
+      <y>410</y>
       <w>90</w>
       <h>100</h>
     </coordinates>
@@ -155,8 +130,8 @@ HTTP</panel_attributes>
   <element>
     <id>UMLDeployment</id>
     <coordinates>
-      <x>410</x>
-      <y>330</y>
+      <x>1040</x>
+      <y>340</y>
       <w>110</w>
       <h>60</h>
     </coordinates>
@@ -167,8 +142,8 @@ HTTP</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>320</x>
-      <y>340</y>
+      <x>950</x>
+      <y>350</y>
       <w>110</w>
       <h>50</h>
     </coordinates>
@@ -180,8 +155,8 @@ connection</panel_attributes>
   <element>
     <id>UMLDeployment</id>
     <coordinates>
-      <x>50</x>
-      <y>80</y>
+      <x>680</x>
+      <y>90</y>
       <w>230</w>
       <h>110</h>
     </coordinates>
@@ -192,13 +167,262 @@ connection</panel_attributes>
   <element>
     <id>UMLDeployment</id>
     <coordinates>
-      <x>340</x>
-      <y>80</y>
+      <x>970</x>
+      <y>90</y>
       <w>230</w>
       <h>110</h>
     </coordinates>
     <panel_attributes>&lt;&lt;virtual machine&gt;&gt;
 *JVM*</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLDeployment</id>
+    <coordinates>
+      <x>50</x>
+      <y>40</y>
+      <w>260</w>
+      <h>170</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;device&gt;&gt;
+*Linux Server*</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLDeployment</id>
+    <coordinates>
+      <x>340</x>
+      <y>40</y>
+      <w>260</w>
+      <h>170</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;device&gt;&gt;
+*Linux Server*</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLDeployment</id>
+    <coordinates>
+      <x>90</x>
+      <y>250</y>
+      <w>470</w>
+      <h>210</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;device&gt;&gt;
+*Linux Server*</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>160</x>
+      <y>200</y>
+      <w>90</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>lt=-
+&lt;&lt;protocol&gt;&gt;
+HTTP</panel_attributes>
+    <additional_attributes>10.0;110.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>330</x>
+      <y>180</y>
+      <w>150</w>
+      <h>170</h>
+    </coordinates>
+    <panel_attributes>lt=-
+&lt;&lt;protocol&gt;&gt;
+HTTP</panel_attributes>
+    <additional_attributes>10.0;140.0;130.0;140.0;130.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLDeployment</id>
+    <coordinates>
+      <x>110</x>
+      <y>310</y>
+      <w>230</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;js engine&gt;&gt;
+*Node.js*</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>120</x>
+      <y>360</y>
+      <w>200</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>symbol=artifact
+&lt;&lt;artifact&gt;&gt;
+CentralizedControlModule.js</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>70</x>
+      <y>140</y>
+      <w>200</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>symbol=artifact
+&lt;&lt;artifact&gt;&gt;
+SearchingModule.js</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>360</x>
+      <y>140</y>
+      <w>200</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>symbol=artifact
+&lt;&lt;artifact&gt;&gt;
+RescuingModule.js</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLDeployment</id>
+    <coordinates>
+      <x>100</x>
+      <y>490</y>
+      <w>260</w>
+      <h>170</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;device&gt;&gt;
+*Desktop*</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>120</x>
+      <y>590</y>
+      <w>200</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>symbol=artifact
+&lt;&lt;artifact&gt;&gt;
+ui.js</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>210</x>
+      <y>410</y>
+      <w>90</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>lt=-
+&lt;&lt;protocol&gt;&gt;
+HTTP</panel_attributes>
+    <additional_attributes>10.0;80.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLDeployment</id>
+    <coordinates>
+      <x>420</x>
+      <y>340</y>
+      <w>110</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;datastore&gt;&gt;
+*MongoDB*</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>330</x>
+      <y>350</y>
+      <w>110</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=-
+&lt;&lt;protocol&gt;&gt;
+connection</panel_attributes>
+    <additional_attributes>90.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLDeployment</id>
+    <coordinates>
+      <x>60</x>
+      <y>90</y>
+      <w>230</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;js engine&gt;&gt;
+*Node.js*</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLDeployment</id>
+    <coordinates>
+      <x>350</x>
+      <y>90</y>
+      <w>230</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;js engine&gt;&gt;
+*Node.js*</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLDeployment</id>
+    <coordinates>
+      <x>110</x>
+      <y>540</y>
+      <w>230</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;web client&gt;&gt;
+*Browser*</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLDeployment</id>
+    <coordinates>
+      <x>720</x>
+      <y>490</y>
+      <w>260</w>
+      <h>170</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;device&gt;&gt;
+*Desktop*</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>740</x>
+      <y>590</y>
+      <w>200</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>symbol=artifact
+&lt;&lt;artifact&gt;&gt;
+ui.js</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLDeployment</id>
+    <coordinates>
+      <x>730</x>
+      <y>540</y>
+      <w>230</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;web client&gt;&gt;
+*Browser*</panel_attributes>
     <additional_attributes/>
   </element>
 </diagram>
