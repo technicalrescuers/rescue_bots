@@ -216,27 +216,27 @@ connection</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>160</x>
-      <y>200</y>
+      <y>190</y>
       <w>90</w>
-      <h>130</h>
+      <h>140</h>
     </coordinates>
     <panel_attributes>lt=-
 &lt;&lt;protocol&gt;&gt;
 HTTP</panel_attributes>
-    <additional_attributes>10.0;110.0;10.0;10.0</additional_attributes>
+    <additional_attributes>10.0;120.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
       <x>330</x>
-      <y>180</y>
+      <y>190</y>
       <w>150</w>
-      <h>170</h>
+      <h>160</h>
     </coordinates>
     <panel_attributes>lt=-
 &lt;&lt;protocol&gt;&gt;
 HTTP</panel_attributes>
-    <additional_attributes>10.0;140.0;130.0;140.0;130.0;10.0</additional_attributes>
+    <additional_attributes>10.0;130.0;130.0;130.0;130.0;10.0</additional_attributes>
   </element>
   <element>
     <id>UMLDeployment</id>
