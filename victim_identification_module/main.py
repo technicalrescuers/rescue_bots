@@ -10,8 +10,8 @@ import serial
 
 email_update_interval = 10 # sends an email only once in this time interval
 video_camera = VideoCamera(flip=False) # creates a camera object, flip vertically
-object_classifier = cv2.CascadeClassifier("models/facial_recognition_model.xml") # an opencv classifier
-#object_classifier = cv2.CascadeClassifier("models/fullbody_recognition_model.xml") # an opencv classifier
+#object_classifier = cv2.CascadeClassifier("models/facial_recognition_model.xml") # an opencv classifier
+object_classifier = cv2.CascadeClassifier("models/fullbody_recognition_model.xml") # an opencv classifier
 #object_classifier = cv2.CascadeClassifier("models/upperbody_recognition_model.xml") # an opencv classifier
 
 # App Globals (do not edit)
