@@ -1,0 +1,56 @@
+1. Power cable does not support multiple devices
+
+2. Wifi not connecting:
+	1. Change iPhone's SSID to "Mutthoju iPhone"
+		1. Settings > General > About > Name > Mutthoju iPhone
+
+	2. open /etc/wpa_supplicant/wpa_supplicant.config
+	3. Add the following:
+
+		ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
+		update_config=1
+		country=GB
+
+		network={
+    	    	    ssid="Mutthoju iPhone"
+    	    	    psk="password"
+    	    	    key_mgmt=WPA-PSK
+		}
+
+	4. re-boot PI
+
+3. Enabling Camera
+	1. sudo raspi-config
+	2. Interfacing Options
+		1. PI Camera
+		2. Yes (Enable)
+		3. Ok
+	3. Finish
+	4. re-boot PI
+	5. Testing:
+		1. raspistill -o image.jpg -t 5000
+		2. raspivid -o video.h264 -t 10000
+
+4. No PORT Showing for Arduino Nano
+	1. Need to update drivers: https://www.instructables.com/id/Arduino-Nano-USB-Not-Recognizing-Fix/
+		1. http://www.wch.cn/download/CH341SER_EXE.html
+			1. Download and install the driver (*.exe) for CH342SER
+
+5. Sketch not uploading to nano
+	1. Select Tools > Board > Arduino Nano
+	2. Select Tools > Processor > ATmega328P (Old Bootloader)
+	3. Select Port > COM4
+
+6. Powering:
+	1. Common power source:
+		1. Arduino Nano
+			1. Unregulated power (7V- 12V) - Pin 30 - Vin
+			2. Regulated 5V power - Pin 27 (5V)
+			3. Mini USB
+		2. RPI Zero WH
+		3. USB Hub
+		4. Micro Servo (optional)
+	2. standoffs (height)
+
+7. Mini HDMI not working
+	1. USB to HDMI cable connection 
